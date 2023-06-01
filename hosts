@@ -1,0 +1,14 @@
+[all:vars]
+ansible_user='admin'
+ansible_become='yes'
+
+[app]
+158.160.65.214
+158.160.69.9
+######
+[database]
+localhost
+
+[database:vars]
+datadirectory = /var/lib/pgsql/data/pg_hba.conf
+version = 9.2.24-8.el7_9
